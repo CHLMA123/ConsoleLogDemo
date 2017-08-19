@@ -152,10 +152,10 @@
 			isa = PBXGroup;
 			children = (
 				36FDCB0B1EB73B1E00A0C0C5 /* CocoaLumberjack */,
-				36FDCAD81EB7394600A0C0C5 /* AppDelegate.h */,
-				36FDCAD91EB7394600A0C0C5 /* AppDelegate.m */,
 				36FDCADB1EB7394600A0C0C5 /* ViewController.h */,
 				36FDCADC1EB7394600A0C0C5 /* ViewController.m */,
+				36FDCAD81EB7394600A0C0C5 /* AppDelegate.h */,
+				36FDCAD91EB7394600A0C0C5 /* AppDelegate.m */,
 				36FDCADE1EB7394600A0C0C5 /* Main.storyboard */,
 				36FDCAE41EB7394600A0C0C5 /* Assets.xcassets */,
 				36FDCAE61EB7394600A0C0C5 /* LaunchScreen.storyboard */,
@@ -654,6 +654,7 @@
 				36FDCB041EB7394600A0C0C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36FDCB051EB7394600A0C0C5 /* Build configuration list for PBXNativeTarget "ConsoleLogDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -662,6 +663,7 @@
 				36FDCB071EB7394600A0C0C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36FDCB081EB7394600A0C0C5 /* Build configuration list for PBXNativeTarget "ConsoleLogDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -670,6 +672,7 @@
 				36FDCB0A1EB7394600A0C0C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

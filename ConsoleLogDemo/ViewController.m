@@ -14,16 +14,21 @@
 @end
 
 @implementation ViewController
-
++ (void)load{
+    NSLog(@"%s", __FUNCTION__);
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"%s", __FUNCTION__);
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     DDLogWarn (@"### DDLogWarn");
     DDLogError(@"### DDLogError");
     DDLogInfo (@"... DDLogInfo");
     DDLogVerbose(@"... DDLogVerbose");
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
