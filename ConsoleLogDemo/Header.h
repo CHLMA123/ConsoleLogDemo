@@ -11,6 +11,7 @@
 
 #import <UIKit/UIKit.h>
 #import "CocoaLumberjack.h"
+#import "NSObject+Log.h"
 
 //----------------------颜色类---------------------------
 // rgb颜色转换（16进制->10进制）

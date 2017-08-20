@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "Header.h"
-
+#import "AnimaitonModel.h"
 @interface ViewController ()
 
 @end
@@ -28,6 +28,16 @@
     DDLogError(@"### DDLogError");
     DDLogInfo (@"... DDLogInfo");
     DDLogVerbose(@"... DDLogVerbose");
+    AnimaitonModel *m1 = [AnimaitonModel new];
+    m1.age = @"100";
+    m1.name = @"xiaohei";
+    AnimaitonModel2 *m2 = [AnimaitonModel2 new];
+    m2.name1 = @"xiaoheissss";
+    m2.age1 = @"1000";
+    m1.modelTest = m2;
+    
+    NSArray <AnimaitonModel *>*arr1 = @[m1];
+    DDLogInfo(@"arr1 = %@",arr1);
 }
 
 - (void)didReceiveMemoryWarning {

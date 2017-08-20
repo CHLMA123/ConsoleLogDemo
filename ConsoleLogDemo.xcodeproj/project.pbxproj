@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		365802111F492295005321B8 /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 365802101F492295005321B8 /* NSObject+Log.m */; };
+		365802141F49259E005321B8 /* AnimaitonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 365802131F49259E005321B8 /* AnimaitonModel.m */; };
 		36FDCAD71EB7394600A0C0C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FDCAD61EB7394600A0C0C5 /* main.m */; };
 		36FDCADA1EB7394600A0C0C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FDCAD91EB7394600A0C0C5 /* AppDelegate.m */; };
 		36FDCADD1EB7394600A0C0C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FDCADC1EB7394600A0C0C5 /* ViewController.m */; };
@@ -50,6 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3658020F1F492295005321B8 /* NSObject+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Log.h"; sourceTree = "<group>"; };
+		365802101F492295005321B8 /* NSObject+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Log.m"; sourceTree = "<group>"; };
+		365802121F49259E005321B8 /* AnimaitonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimaitonModel.h; sourceTree = "<group>"; };
+		365802131F49259E005321B8 /* AnimaitonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimaitonModel.m; sourceTree = "<group>"; };
 		36FDCAD21EB7394600A0C0C5 /* ConsoleLogDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConsoleLogDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36FDCAD61EB7394600A0C0C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		36FDCAD81EB7394600A0C0C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -156,6 +162,8 @@
 				36FDCADC1EB7394600A0C0C5 /* ViewController.m */,
 				36FDCAD81EB7394600A0C0C5 /* AppDelegate.h */,
 				36FDCAD91EB7394600A0C0C5 /* AppDelegate.m */,
+				365802121F49259E005321B8 /* AnimaitonModel.h */,
+				365802131F49259E005321B8 /* AnimaitonModel.m */,
 				36FDCADE1EB7394600A0C0C5 /* Main.storyboard */,
 				36FDCAE41EB7394600A0C0C5 /* Assets.xcassets */,
 				36FDCAE61EB7394600A0C0C5 /* LaunchScreen.storyboard */,
@@ -163,6 +171,8 @@
 				36FDCAE11EB7394600A0C0C5 /* ConsoleLogDemo.xcdatamodeld */,
 				36FDCAD51EB7394600A0C0C5 /* Supporting Files */,
 				36FDCB3B1EB73BD400A0C0C5 /* Header.h */,
+				3658020F1F492295005321B8 /* NSObject+Log.h */,
+				365802101F492295005321B8 /* NSObject+Log.m */,
 			);
 			path = ConsoleLogDemo;
 			sourceTree = "<group>";
@@ -399,6 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				365802141F49259E005321B8 /* AnimaitonModel.m in Sources */,
 				36FDCB411EB740BD00A0C0C5 /* MZLogFileManager.m in Sources */,
 				36FDCADD1EB7394600A0C0C5 /* ViewController.m in Sources */,
 				36FDCB361EB73B1F00A0C0C5 /* DDDispatchQueueLogFormatter.m in Sources */,
@@ -407,6 +418,7 @@
 				36FDCAE31EB7394600A0C0C5 /* ConsoleLogDemo.xcdatamodeld in Sources */,
 				36FDCADA1EB7394600A0C0C5 /* AppDelegate.m in Sources */,
 				36FDCB341EB73B1F00A0C0C5 /* DDTTYLogger.m in Sources */,
+				365802111F492295005321B8 /* NSObject+Log.m in Sources */,
 				36FDCB441EB741EC00A0C0C5 /* MZFileLogFormatter.m in Sources */,
 				36FDCB3E1EB73F9C00A0C0C5 /* MZDDLogManager.m in Sources */,
 				36FDCB321EB73B1F00A0C0C5 /* DDLog.m in Sources */,
